@@ -1,0 +1,14 @@
+
+* Starta programmet.
+
+* Tryck på "CSV to XML" knappen och välj vilken CSV fil som ska konverteras till en XML fil. 
+(Om det inte är en CSV fil kommer ett meddelande upp i konsollen. Tryck i så fall på knappen igen.)
+
+* Välj var XML filen ska sparas och vad den ska heta. 
+(Om det inte är valt någon .xml fil så sparas den som sheet.xml i program mappen.)
+
+* Klart!
+
+* Valfritt, tryck på "read XML" knappen för att läsa in XML filen i konsollen och skapa en kopia av CSV filen i samma mapp som XML filen.
+
+* Stäng programmet.
