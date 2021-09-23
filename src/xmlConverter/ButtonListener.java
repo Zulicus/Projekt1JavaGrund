@@ -112,7 +112,7 @@ public class ButtonListener implements ActionListener {
 					System.out.println("That is not a CSV file!");
 				}
 				
-			} else {
+			} else if(event.getSource().toString().contains("Read XML")){
 				// Declaration of variables.
 				Document doc = dBuilder.parse(fileChooser.getSelectedFile());
 				PrintWriter pw = new PrintWriter(new File(fileChooser.getSelectedFile().getAbsolutePath().replace(".xml", ".csv")));
@@ -146,6 +146,8 @@ public class ButtonListener implements ActionListener {
 				pw.write(text);
 				pw.close();
 				System.out.println(text);
+			}else {
+				System.out.println("Button not recognized");
 			}
 		} catch (FileNotFoundException e) {
 			e.printStackTrace();
